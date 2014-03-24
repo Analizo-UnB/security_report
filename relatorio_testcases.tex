@@ -1,0 +1,126 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.0.2
+% see http://writer2latex.sourceforge.net for more info
+\documentclass[a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuges]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{hyperref}
+\hypersetup{pdftex, colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=, pdfauthor=Alexandre , pdfsubject=, pdfkeywords=}
+% Outline numbering
+\setcounter{secnumdepth}{0}
+% Page layout (geometry)
+\setlength\voffset{-1in}
+\setlength\hoffset{-1in}
+\setlength\topmargin{2cm}
+\setlength\oddsidemargin{2cm}
+\setlength\textheight{25.7cm}
+\setlength\textwidth{17.001cm}
+\setlength\footskip{0.0cm}
+\setlength\headheight{0cm}
+\setlength\headsep{0cm}
+% Footnote rule
+\setlength{\skip\footins}{0.119cm}
+\renewcommand\footnoterule{\vspace*{-0.018cm}\setlength\leftskip{0pt}\setlength\rightskip{0pt plus 1fil}\noindent\textcolor{black}{\rule{0.25\columnwidth}{0.018cm}}\vspace*{0.101cm}}
+% Pages styles
+\makeatletter
+\newcommand\ps@Standard{
+  \renewcommand\@oddhead{}
+  \renewcommand\@evenhead{}
+  \renewcommand\@oddfoot{}
+  \renewcommand\@evenfoot{}
+  \renewcommand\thepage{\arabic{page}}
+}
+\makeatother
+\pagestyle{Standard}
+\title{}
+\author{Alexandre }
+\date{2014-03-21T17:26:54.586327744}
+\begin{document}
+\section{Objetivo}
+Obter o percentual de identificação de ameaças de código na suíte de
+testes {\textquotedblleft}Juliet{\textquotedblright} (recomendado pelo
+NIST), através do analisador estático da ferramenta Clang.
+
+\section{Metodologia}
+\subsection{Identificação e escolha das versões das ferramentas
+utilizadas}
+Foi necessário identificar as ferramentas necessárias (Clang e gcc). Foi
+utilizado o gcc (explicar o porque)
+
+Foram escolhidas as últimas versões de cada ferramenta (especificar as
+versões) por que nas versões anteriores foram identificados menos bugs.
+
+\subsection{Testes iniciais}
+{}- Tentamos rodar o scan-build diretamente na suíte de testes do
+Juliet. Foram identificados que os Makefiles estavam quebrados. Os
+mesmos foram corrigidos e os testes manuais foram realizados novamente.
+
+\subsection{Seleção dos parâmetros a serem extraídos dos testes}
+Foi decidido, que os parâmetros a serem extraídos seriam:
+
+{}- Total de arquivos analisados;
+
+{}- Total de arquivos não reportados;
+
+{}- Total de Oks (o bug esperado foi encontrado);
+
+{}- Total de fails (o bug esperado não foi encontrado);
+
+Para cada arquivo é exibido:
+
+{}- Nome;
+
+{}- Bug esperado;
+
+{}- Bugs encontrados;
+
+{}- O bug foi encontrado? (OK ou fail)
+
+\subsection{Automação do processo de análise do arquivo com o Clang}
+Para agilizar o processo, foram desenvolvidos scripts em Perl (estará em
+anexo) onde era executado o clang em cima do juliet, que depois
+preenche a árvore com as informações obtidas do scan-build, gerando uma
+estrutura de dados. A partir da leitura dessa estrutura de dados, é
+gerado um csv, que é o output da pesquisa.
+
+\subsection{Geração do relatório CSV com as métricas de porcentagem de
+sucesso}
+Os arquivos CSV contêm os parâmetros obtidos através dos scripts e
+também foi gerado um relatório csv geral, com a junção das informações
+de todos os outros CSVs.
+
+\subsection{Considerações sobre o comportamento e particularidades do
+Clang}
+Nem todos os tipos de ameaças existentes na suíte de testes do Juliet
+são analisadas pelo Clang. Entretanto, estes testes que não estão no
+escopo do Clang também estão sendo analisados pelo script.
+
+Também é preciso salientar que há uma relação tão precisa entre as CWEs
+classificadas pelo NIST e as vulnerabilidades classificadas pelo Clang.
+
+\section{Resultados}
+Falar sobre o percentual encontrado.
+
+Lembrar da ressalvas acima.
+
+Lembrar que foi pressuposto um bug por arquivo, ainda que possa haver
+mais.
+
+Os dados estão em anexo
+
+\section{Conclusão}
+Trabalhos futuros
+
+O trabalho foi feito mas ainda há muito o que ser melhorado. Ainda é
+preciso aprimorar o mapeamento entre as vulnerabilidades do Clang e do
+NIST, e \ identificar e retirar do cálculo dos parâmetros os testes que
+não estão no escopo do Clang.
+
+
+\bigskip
+\end{document}
