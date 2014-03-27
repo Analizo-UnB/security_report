@@ -1,0 +1,35 @@
+\section{Metodologia} 
+
+\begin{itemize}
+  \item Identificação e escolha das versoes das ferramentas utilizadas
+  \begin{itemize}
+    \item Definir critérios de seleção
+    \item Selecionar ferramentas
+  \end{itemize}
+  \item Testes iniciais
+  \begin{itemize}
+    \item Execução a ferramenta sobre o Juliet
+    \item Identificação de erros nos Makefiles do Juliet
+    \item Correção dos erros encontrados
+    \item Reexecução da ferramenta sobre o Juiet
+  \end{itemize}
+  \item Selecao dos parametros a serem extraídos dos testes
+  \begin{itemize}
+    \item Parametros globais
+    \begin{itemize}
+      \item Total de arquivos analisados
+      \item Total de arquivos não reportados
+      \item Total de OKs (vulnerabilidade esperada foi encontrada)
+      \item Total de fails (vulnerabilidade esperada não foi encontrada)
+    \end{itemize}
+    \item Parametros por arquivo
+    \begin{itemize}
+      \item Nome do arquivo
+      \item Vulnerabilidade esperada
+      \item Vulnerabilidade(s) encontrada(s)
+      \item Vulnerabilidade foi encontrada? (OK ou fail)
+    \end{itemize}
+  \end{itemize}
+  \item Automação do processo de análise do aquivo com o Clang
+  \item Geracao de relatorio com as metricas de porcentagem de sucesso
+\end{itemize}
