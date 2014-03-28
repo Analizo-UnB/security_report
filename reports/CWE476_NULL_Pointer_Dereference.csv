@@ -1,0 +1,215 @@
+CWE476_NULL_Pointer_Dereference
+
+Total files, 530
+
+Files not reported, 326
+
+Total OKs, 180, 33.9622641509434%
+Total Fails, 24, 4.52830188679245%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE476_NULL_Pointer_Dereference__struct_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_32.c,Dereference of null pointer,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE476_NULL_Pointer_Dereference__class_16.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_09.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__int_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_45.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_14.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_09.cpp,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_07.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_09.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_16.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_03.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_04.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_14.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_10.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__struct_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_05.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__class_02.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_06.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_31.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_44.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_07.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__binary_if_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_41.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_14.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__struct_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_45.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_44.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_11.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_33.cpp,Dereference of null pointer,Dereference of null pointer;Dead assignment,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_10.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__int_44.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_05.cpp,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__int_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_12.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__binary_if_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_17.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__binary_if_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_14.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_32.c,Dereference of null pointer,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE476_NULL_Pointer_Dereference__long_33.cpp,Dereference of null pointer,Dead assignment;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_21.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_31.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_45.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_32.c,Dereference of null pointer,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE476_NULL_Pointer_Dereference__long_21.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_33.cpp,Dereference of null pointer,Dead assignment;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_10.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_33.cpp,Dereference of null pointer,Dead assignment;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_13.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__struct_21.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_21.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_44.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_33.cpp,Dereference of null pointer,Dead assignment;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_10.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__long_05.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_14.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_11.cpp,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__struct_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_18.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_05.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_15.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_09.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__class_13.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_10.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_31.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_12.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_10.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_32.c,Dereference of null pointer,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE476_NULL_Pointer_Dereference__char_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_45.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_10.cpp,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__char_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_31.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_41.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_07.cpp,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_09.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_07.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__struct_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_11.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_11.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_18.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_11.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_04.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_44.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_11.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__class_32.cpp,Dereference of null pointer,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE476_NULL_Pointer_Dereference__class_06.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_06.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_11.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__long_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_05.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__deref_after_check_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_01.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_09.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_41.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_02.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_41.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_17.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_09.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_32.c,Dereference of null pointer,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE476_NULL_Pointer_Dereference__struct_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_05.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__struct_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_07.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_14.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_31.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_07.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_08.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_07.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__class_04.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_14.cpp,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__int_31.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_15.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_44.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_33.cpp,Dereference of null pointer,Dereference of null pointer;Dead assignment,OK
+CWE476_NULL_Pointer_Dereference__int64_t_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_12.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_11.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__struct_15.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_18.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_21.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_13.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_41.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__char_21.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_08.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_08.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__char_45.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__struct_11.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__char_10.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__char_14.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__binary_if_07.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_10.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_01.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__struct_05.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_05.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_07.c,Dereference of null pointer,Dereference of null pointer;Dereference of undefined pointer value,OK
+CWE476_NULL_Pointer_Dereference__int_09.c,Dereference of null pointer,Dereference of undefined pointer value;Dereference of null pointer;Result of operation is garbage or undefined,OK
+CWE476_NULL_Pointer_Dereference__long_41.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int_03.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__null_check_after_deref_14.c,Dereference of null pointer,Memory leak,Fail
+CWE476_NULL_Pointer_Dereference__long_45.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_16.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_17.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__long_02.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__class_03.cpp,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_01.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__int64_t_09.c,Dereference of null pointer,Result of operation is garbage or undefined;Dereference of undefined pointer value;Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__deref_after_check_05.c,Dereference of null pointer,Dereference of null pointer,OK
+CWE476_NULL_Pointer_Dereference__binary_if_13.c,Dereference of null pointer,Dereference of null pointer,OK

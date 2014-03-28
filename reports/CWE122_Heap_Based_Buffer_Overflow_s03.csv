@@ -1,0 +1,69 @@
+CWE122_Heap_Based_Buffer_Overflow_s03
+
+Total files, 936
+
+Files not reported, 878
+
+Total OKs, 0, 0%
+Total Fails, 58, 6.1965811965812%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_10.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_09.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_05.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_05.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_14.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_09.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_13.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_07.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_11.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memcpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_07.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_10.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_11.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_14.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_13.cpp,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memmove_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memmove_33.cpp,Memory leak,Dead assignment,Fail

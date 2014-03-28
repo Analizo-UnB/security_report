@@ -1,0 +1,25 @@
+CWE121_Stack_Based_Buffer_Overflow_s06
+
+Total files, 921
+
+Files not reported, 907
+
+Total OKs, 0, 0%
+Total Fails, 14, 1.52008686210641%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_11.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_07.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_10.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_09.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_07.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_05.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_14.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_13.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_09.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_11.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_14.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_05.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_13.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_10.c,Memory leak,Assigned value is garbage or undefined,Fail

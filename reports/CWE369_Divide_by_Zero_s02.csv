@@ -1,0 +1,250 @@
+CWE369_Divide_by_Zero_s02
+
+Total files, 574
+
+Files not reported, 335
+
+Total OKs, 54, 9.40766550522648%
+Total Fails, 185, 32.2299651567944%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE369_Divide_by_Zero__int_zero_divide_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_21.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_divide_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_18.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_32.c,Division by zero,Dead initialization,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_01.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_45.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_41.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_01.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_07.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_16.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_18.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_divide_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_06.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_41.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_13.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_31.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_31.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_12.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_44.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_32.c,Division by zero,Dead initialization,Fail
+CWE369_Divide_by_Zero__int_rand_divide_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_12.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_31.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_14.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_02.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_17.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_12.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_21.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_zero_modulo_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_03.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_17.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_10.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_modulo_21.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_03.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_01.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_16.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_04.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_02.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_21.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_01.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_33.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_44.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_02.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_04.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_45.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_03.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_01.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_16.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_12.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_44.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_21.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_32.c,Division by zero,Dead initialization,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_18.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_31.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_18.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_15.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_41.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_13.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_06.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_44.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_02.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_18.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_zero_modulo_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_45.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_32.c,Division by zero,Dead initialization,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_09.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_15.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_16.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_33.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_03.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_02.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_11.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_41.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_21.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_04.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_16.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_zero_modulo_43.cpp,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_03.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_09.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_31.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_05.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_42.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_33.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_45.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_12.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_31.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_modulo_41.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_45.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_15.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_02.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_01.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_41.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_07.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_44.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_03.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_06.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_51a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_01.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_modulo_33.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_44.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_33.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_33.cpp,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_rand_modulo_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_45.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_15.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_52a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_31.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_18.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_32.c,Division by zero,Division by zero;Dead initialization,OK
+CWE369_Divide_by_Zero__int_fscanf_modulo_15.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_43.cpp,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_divide_06.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_68a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_22a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_72a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_32.c,Division by zero,Dead initialization,Fail
+CWE369_Divide_by_Zero__int_zero_divide_65a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_06.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_12.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_32.c,Division by zero,Division by zero;Dead initialization,OK
+CWE369_Divide_by_Zero__int_zero_divide_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_41.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_04.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_03.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_04.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_08.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_14.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_modulo_06.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_82a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_44.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_rand_modulo_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_05.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_15.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_54a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_divide_16.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_15.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_81a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_16.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_04.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_34.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_10.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_modulo_18.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_74a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_modulo_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_rand_divide_21.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_fscanf_modulo_73a.cpp,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_listen_socket_modulo_45.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_06.c,Division by zero,Division by zero;Dead assignment,OK
+CWE369_Divide_by_Zero__int_zero_modulo_02.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_66a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_08.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_listen_socket_divide_67a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_divide_12.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_33.cpp,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_rand_divide_53a.c,Division by zero,Dead assignment,Fail
+CWE369_Divide_by_Zero__int_zero_modulo_11.c,Division by zero,Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_divide_04.c,Division by zero,Dead assignment;Division by zero,OK
+CWE369_Divide_by_Zero__int_zero_modulo_42.c,Division by zero,Division by zero,OK

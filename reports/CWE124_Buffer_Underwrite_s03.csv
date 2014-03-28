@@ -1,0 +1,56 @@
+CWE124_Buffer_Underwrite_s03
+
+Total files, 906
+
+Files not reported, 861
+
+Total OKs, 0, 0%
+Total Fails, 45, 4.96688741721854%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE124_Buffer_Underwrite__new_char_memcpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_13.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__new_char_loop_11.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_05.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_07.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_32.cpp,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_09.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_14.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_loop_32.cpp,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__new_char_loop_10.cpp,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__new_char_cpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_ncpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE124_Buffer_Underwrite__new_char_memcpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__new_char_memmove_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail

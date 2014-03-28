@@ -1,0 +1,18 @@
+CWE457_Use_of_Uninitialized_Variable_s02
+
+Total files, 100
+
+Files not reported, 93
+
+Total OKs, 5, 5%
+Total Fails, 2, 2%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp,Uninitialized argument value,Uninitialized argument value;Memory leak,OK
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_05.cpp,Uninitialized argument value,Memory leak;Uninitialized argument value,OK
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_11.cpp,Uninitialized argument value,Memory leak;Uninitialized argument value,OK
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp,Uninitialized argument value,Uninitialized argument value;Memory leak,OK
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp,Uninitialized argument value,Memory leak;Uninitialized argument value,OK
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp,Uninitialized argument value,Memory leak,Fail
+CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp,Uninitialized argument value,Memory leak,Fail

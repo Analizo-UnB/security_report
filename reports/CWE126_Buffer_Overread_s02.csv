@@ -1,0 +1,62 @@
+CWE126_Buffer_Overread_s02
+
+Total files, 876
+
+Files not reported, 825
+
+Total OKs, 3, 0.342465753424658%
+Total Fails, 48, 5.47945205479452%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE126_Buffer_Overread__new_char_loop_14.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_13.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_13.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memmove_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_loop_10.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_memmove_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memmove_32.cpp,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__new_char_memcpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_loop_11.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_14.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_05.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_07.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_09.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_05.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memcpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_10.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memcpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_11.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memmove_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_32.c,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__new_char_loop_09.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_memmove_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_14.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_loop_10.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_loop_13.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_memmove_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_07.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_34.c,Memory leak,Memory leak,OK
+CWE126_Buffer_Overread__new_char_loop_13.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_11.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_14.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memcpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_34.c,Memory leak,Memory leak,OK
+CWE126_Buffer_Overread__new_char_memmove_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_11.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_memcpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_loop_07.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_memcpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_07.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_memmove_09.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_05.c,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__new_char_loop_32.cpp,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_32.c,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__new_char_memcpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_loop_05.cpp,Memory leak,Dereference of null pointer,Fail
+CWE126_Buffer_Overread__malloc_char_memcpy_10.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memmove_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__new_char_memcpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE126_Buffer_Overread__malloc_char_loop_34.c,Memory leak,Memory leak,OK
+CWE126_Buffer_Overread__malloc_char_memmove_32.c,Memory leak,Dead initialization,Fail
+CWE126_Buffer_Overread__malloc_char_loop_09.c,Memory leak,Dereference of null pointer,Fail

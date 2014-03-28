@@ -1,0 +1,239 @@
+CWE401_Memory_Leak_s03
+
+Total files, 822
+
+Files not reported, 594
+
+Total OKs, 162, 19.7080291970803%
+Total Fails, 66, 8.02919708029197%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_34.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_32.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_34.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_42.c,Memory leak,Memory leak;Dead assignment;Return of address to stack-allocated memory,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_45.c,Memory leak,Stack address stored into global variable;Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_32.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_33.cpp,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_42.c,Memory leak,Memory leak;Return of address to stack-allocated memory;Dead assignment,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_12.c,Memory leak,Bad free;Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_45.c,Memory leak,Dead initialization;Stack address stored into global variable,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_31.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_33.cpp,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_31.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_42.c,Memory leak,Memory leak;Dead assignment;Return of address to stack-allocated memory,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_33.cpp,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_12.c,Memory leak,Bad free;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_12.c,Memory leak,Memory leak;Bad free,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_33.cpp,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_34.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_45.c,Memory leak,Dead initialization;Stack address stored into global variable,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_32.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_12.c,Memory leak,Memory leak;Bad free,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_64b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_32.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_32.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_45.c,Memory leak,Dead initialization;Stack address stored into global variable,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_31.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_64b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_34.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_12.c,Memory leak,Bad free;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_34.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_31.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_42.c,Memory leak,Memory leak;Return of address to stack-allocated memory;Dead assignment,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_31.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_41.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_61b.c,Memory leak,Return of address to stack-allocated memory,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_34.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_64b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_64b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_05.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_64b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_43.cpp,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_32.c,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_33.cpp,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_45.c,Memory leak,Dead initialization;Stack address stored into global variable,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_02.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_74b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_17.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_63b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_42.c,Memory leak,Dead assignment;Return of address to stack-allocated memory;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_13.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_14.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_44.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_16.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_33.cpp,Memory leak,Dead initialization;Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_01.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_68b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_08.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_18.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_10.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_42.c,Memory leak,Memory leak;Dead assignment;Return of address to stack-allocated memory,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_21.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_calloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_04.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_15.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_11.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_malloc_03.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_45.c,Memory leak,Dead initialization;Stack address stored into global variable,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_malloc_06.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_07.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_31.c,Memory leak,Memory leak;Dead initialization,OK
+CWE401_Memory_Leak__struct_twoIntsStruct_realloc_73b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__struct_twoIntsStruct_calloc_67b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_66b.c,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_12.c,Memory leak,Memory leak;Bad free,OK
+CWE401_Memory_Leak__twoIntsStruct_calloc_72b.cpp,Memory leak,Dead initialization,Fail
+CWE401_Memory_Leak__twoIntsStruct_realloc_09.c,Memory leak,Memory leak,OK
+CWE401_Memory_Leak__twoIntsStruct_realloc_61a.c,Memory leak,Dead assignment,Fail
+CWE401_Memory_Leak__twoIntsStruct_malloc_64b.c,Memory leak,Dead initialization,Fail

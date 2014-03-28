@@ -1,0 +1,190 @@
+CWE124_Buffer_Underwrite_s02
+
+Total files, 944
+
+Files not reported, 765
+
+Total OKs, 108, 11.4406779661017%
+Total Fails, 71, 7.52118644067797%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE124_Buffer_Underwrite__CWE839_rand_73a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_06.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_11.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_07.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_16.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_07.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__CWE839_negative_65a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_05.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__CWE839_rand_22a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_09.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_18.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_03.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_12.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_06.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_loop_05.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_08.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_17.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_68a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_16.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_72a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_51a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_05.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_43.cpp,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_01.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_08.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_44.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_51a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_16.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_43.cpp,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_21.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_15.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_12.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_07.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_12.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_41.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_54a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_12.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_44.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_09.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_52a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_41.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_15.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_73a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_12.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_43.cpp,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_33.cpp,Memory leak,Dead assignment;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_34.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_41.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_07.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_21.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_03.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_10.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_52a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_02.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_67a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_32.c,Memory leak,Dead initialization;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_04.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_41.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_41.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_01.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_03.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_15.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_16.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_14.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_18.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_54a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_34.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_44.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_32.c,Memory leak,Dead initialization;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_09.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_01.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_02.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_42.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_32.c,Memory leak,Memory leak;Dead initialization,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_14.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_17.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_33.cpp,Memory leak,Memory leak;Dead assignment,OK
+CWE124_Buffer_Underwrite__CWE839_negative_22a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_66a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_21.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_13.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_06.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_33.cpp,Memory leak,Dead assignment;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_41.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_74a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_15.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_03.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_21.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_21.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_42.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_06.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_42.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_53a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_32.c,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_05.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_13.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_12.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_11.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_03.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_34.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_34.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_01.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_45.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_loop_10.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_15.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_43.cpp,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_67a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_66a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_06.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_17.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_31.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_10.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_04.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_04.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_01.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_13.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_14.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_32.c,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_42.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_05.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_11.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_07.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_33.cpp,Memory leak,Memory leak;Dead assignment,OK
+CWE124_Buffer_Underwrite__CWE839_negative_34.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_81a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_82a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_16.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_18.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_09.c,Memory leak,Dereference of null pointer,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_34.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_21.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_81a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_rand_68a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_45.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_31.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_13.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_44.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_44.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_08.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_16.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_08.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_02.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_ncpy_14.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__CWE839_rand_04.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_32.c,Memory leak,Memory leak;Dead initialization,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_02.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_72a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_cpy_14.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_10.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_02.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_18.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_04.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_65a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_31.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_31.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_01.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_03.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_11.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_09.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_loop_32.c,Memory leak,Dead initialization,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_04.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_ncpy_11.c,Memory leak,Argument with 'nonnull' attribute passed null;Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_82a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_31.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_74a.cpp,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_18.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_31.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memcpy_44.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_06.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_10.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_cpy_17.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_negative_53a.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__malloc_char_memmove_02.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__malloc_char_memmove_13.c,Memory leak,Memory leak;Argument with 'nonnull' attribute passed null,OK
+CWE124_Buffer_Underwrite__malloc_char_memcpy_15.c,Memory leak,Memory leak,OK
+CWE124_Buffer_Underwrite__CWE839_rand_18.c,Memory leak,Dead assignment,Fail
+CWE124_Buffer_Underwrite__CWE839_negative_33.cpp,Memory leak,Dead assignment,Fail

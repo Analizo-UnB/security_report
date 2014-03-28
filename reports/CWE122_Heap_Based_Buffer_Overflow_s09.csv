@@ -1,0 +1,24 @@
+CWE122_Heap_Based_Buffer_Overflow_s09
+
+Total files, 936
+
+Files not reported, 923
+
+Total OKs, 6, 0.641025641025641%
+Total Fails, 7, 0.747863247863248%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_10.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_13.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_14.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_11.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_05.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_07.c,Memory leak,Assigned value is garbage or undefined,Fail
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_09.c,Memory leak,Assigned value is garbage or undefined,Fail

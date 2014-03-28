@@ -1,0 +1,46 @@
+CWE122_Heap_Based_Buffer_Overflow_s05
+
+Total files, 936
+
+Files not reported, 901
+
+Total OKs, 1, 0.106837606837607%
+Total Fails, 34, 3.63247863247863%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_11.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_14.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_10.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_09.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_09.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_05.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_32.cpp,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_32.c,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_09.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_05.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_13.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_32.c,Memory leak,Dead initialization,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_05.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_13.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_07.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_34.c,Memory leak,Memory leak,OK
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_11.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_07.c,Memory leak,Dereference of null pointer,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_14.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_13.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_11.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_10.cpp,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_14.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_07.c,Memory leak,Argument with 'nonnull' attribute passed null,Fail
+CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_10.c,Memory leak,Dereference of null pointer,Fail

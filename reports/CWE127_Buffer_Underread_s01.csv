@@ -1,0 +1,225 @@
+CWE127_Buffer_Underread_s01
+
+Total files, 958
+
+Files not reported, 744
+
+Total OKs, 0, 0%
+Total Fails, 214, 22.3382045929019%
+
+File, Expected Bugs, Found Bugs, Bug was found?
+
+CWE127_Buffer_Underread__CWE839_connect_socket_73a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_32.c,Memory leak,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE127_Buffer_Underread__CWE839_fgets_41.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_73a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_21.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_81a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_21.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_32.c,Memory leak,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_32.c,Memory leak,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_31.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_52a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_16.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_82a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_45.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_68a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_07.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_32.c,Memory leak,Dead initialization,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_66a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_73a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_05.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_81a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_21.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_31.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_45.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_15.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_02.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_67a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_72a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_44.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_cpy_32.c,Memory leak,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_12.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_03.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_cpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_02.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_67a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_32.c,Memory leak,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE127_Buffer_Underread__CWE839_fgets_52a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_74a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_52a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_31.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_66a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_memmove_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_21.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_cpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_03.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_53a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_04.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_51a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_72a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_68a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_11.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_declare_loop_32.c,Memory leak,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_31.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_74a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_65a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_32.c,Memory leak,Dead initialization,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_44.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_loop_07.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_34.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_22a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_34.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_01.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_loop_10.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_44.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_74a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_cpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_03.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_54a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_81a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_52a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_41.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_04.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_82a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_15.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_51a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_51a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_22a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_cpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_72a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_04.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_15.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_32.c,Memory leak,Dead initialization,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_cpy_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_54a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_53a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_34.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_12.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_15.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_82a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_22a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_68a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_67a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_32.c,Memory leak,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE127_Buffer_Underread__char_declare_loop_09.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_41.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_18.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_54a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_18.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_45.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memmove_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_66a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_10.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_declare_loop_11.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_82a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_04.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_53a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_18.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_81a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_54a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_65a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_44.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_06.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_16.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_06.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_16.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_02.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_66a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_32.c,Memory leak,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_02.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_45.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_06.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_74a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_ncpy_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_22a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_loop_13.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_loop_14.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_11.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_01.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_53a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_68a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_32.c,Memory leak,Assigned value is garbage or undefined;Dead initialization,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_cpy_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_51a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_14.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_12.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_32.c,Memory leak,Dead initialization;Assigned value is garbage or undefined,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_01.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_12.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_cpy_10.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_72a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_41.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_connect_socket_18.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memcpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_01.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_34.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_03.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_loop_13.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__char_alloca_loop_09.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_fgets_65a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_32.c,Memory leak,Dead initialization,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_05.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_memmove_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_cpy_13.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_loop_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_73a.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_loop_14.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_65a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_memmove_09.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__char_declare_loop_05.c,Memory leak,Dereference of undefined pointer value,Fail
+CWE127_Buffer_Underread__CWE839_listen_socket_16.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__CWE839_fgets_67a.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_ncpy_33.cpp,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_alloca_cpy_07.c,Memory leak,Uninitialized argument value,Fail
+CWE127_Buffer_Underread__CWE839_fscanf_06.c,Memory leak,Dead assignment,Fail
+CWE127_Buffer_Underread__char_declare_memcpy_14.c,Memory leak,Uninitialized argument value,Fail
