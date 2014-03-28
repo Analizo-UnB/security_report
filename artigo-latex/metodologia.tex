@@ -13,16 +13,16 @@
     \item Correção dos erros encontrados
     \item Reexecução da ferramenta sobre o Juiet
   \end{itemize}
-  \item Selecao dos parametros a serem extraídos dos testes
+  \item Seleção dos parâmetros a serem extraídos dos testes
   \begin{itemize}
-    \item Parametros globais
+    \item Parâmetros globais
     \begin{itemize}
       \item Total de arquivos analisados
       \item Total de arquivos não reportados
       \item Total de OKs (vulnerabilidade esperada foi encontrada)
       \item Total de fails (vulnerabilidade esperada não foi encontrada)
     \end{itemize}
-    \item Parametros por arquivo
+    \item Parâmetros por arquivo
     \begin{itemize}
       \item Nome do arquivo
       \item Vulnerabilidade esperada
@@ -31,5 +31,14 @@
     \end{itemize}
   \end{itemize}
   \item Automação do processo de análise do aquivo com o Clang
-  \item Geracao de relatorio com as metricas de porcentagem de sucesso
+  \begin{itemize}
+    \item Scripts Perl
+    \item Criação de árvore de vulnerabilidades por arquivo
+    \item Leitura de árvore de vulnerabilidades para geração de relatório
+  \end{itemize}
+  \item Geração de relatorio com as metricas de porcentagem de sucesso
+  \begin{itemize}
+    \item Geração de relatório por diretório de trabalho
+    \item Junção das informações de cada relatório em um relatório geral
+  \end{itemize}
 \end{itemize}
