@@ -6,3 +6,17 @@
 \item Percentual baixo, porém comum
 \item Maioria dos arquivos não obtiveram report
 \end{itemize}
+
+As vulnerabilidades e suas nomenclaturas identificadas pela ferramenta \"scan-build\" (presente na ferramenta Clang) 
+não estão alinhadas com as determinadas pelo NIST, sendo necessária, para este trabalho, uma aproximação. Foi levantada 
+a hipotése de existência de apenas uma vulnerabilidade por arquivo de teste. Deste modo, há a possibilidade de que
+a quantidade de ocorrências de vulnerabilidades esperadas não corresponda à real. Entretanto, o modo de abordagem utilizado
+diminui o impacto dessa possível discrepância.
+
+O percentual de vulnerabilidades encontradas equivalentes as esperadas foi relativamente baixo, contudo, não foi
+uma surpresa, já que a grande maioria das ferramentas possuem tal desempenho. O fato de não ter encontrado nenhuma 
+vulnerabilidade na grande maioria dos casos de teste influenciou bastante para o baixo percentual obtido, não estando, este fato, 
+relacionado a uma interpretação errônea, realmente apresentando um mal desempenho da ferramenta. No contexto dos casos de testes
+que foram identificadas vulnerabilidades, pode ou não ter inconsistências, dependendo da acurácia da 
+hipótese levantada. No espaço amostral das arquivos que foram encontradas vulnerabilidades, cerca de um quinto das vulnerabilidades 
+encontradas foram equivalentes as esperadas, o que pode-se dizer satisfatório.
